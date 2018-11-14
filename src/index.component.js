@@ -1,9 +1,15 @@
 import React from 'react';
 
+import { Jumbotron, Container } from 'react-bootstrap';
+
 class IndexComponent extends React.Component {
   render() {
     return (<div>
-      <h2>Home</h2>
+      <Jumbotron fluid>
+        <Container>
+          <h1 className='display3'>Title</h1>
+        </Container>
+      </Jumbotron>
     </div>);
   }
 }
