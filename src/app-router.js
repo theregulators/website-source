@@ -1,26 +1,54 @@
+// react and react router
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-// routing
-const Index = () => <h2>Home</h2>;
-const About = () => <h2>About</h2>;
-const Solution = () => <h2>Solution</h2>;
-const Team = () => <h2>Team</h2>;
+// bootstrap
+import { Navbar, Nav, Container, Jumbotron } from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+// import components
+import Index from './index.component';
+import About from './about.component';
+import Solution from './solution.component';
+import Team from './team.component';
 
 const AppRouter = () => (
   <Router>
     <div>
-      <nav>
-        <Link to='/'>Home</Link>
-        <Link to='/about'>About</Link>
-        <Link to='/solution'>Solution</Link>
-        <Link to='/team'>Team</Link>
-      </nav>
+      {/* nav bar */}
+      <Navbar bg='light' expand='lg'>
+        <LinkContainer to='/'>
+          <Navbar.Brand>The Regulators</Navbar.Brand>
+        </LinkContainer>
+        <Navbar.Toggle aria-controls='basic-navbar-nav'></Navbar.Toggle>
+        <Navbar.Collapse id='basic-navbar-nav'>
+          <Nav>
+            <LinkContainer to='/about'>
+              <Nav.Link>About</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to='/solution'>
+              <Nav.Link>Solution</Nav.Link>
+            </LinkContainer>
+            <LinkContainer to='/team'>
+              <Nav.Link>Team</Nav.Link>
+            </LinkContainer>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
 
+      {/* routes */}
       <Route path='/' exact component={Index} />
       <Route path='/about/' component={About} />
       <Route path='/solution/' component={Solution} />
       <Route path='/team/' component={Team} />
+
+      {/* footer */}
+      <Jumbotron fluid className='bg-light'>
+        <Container>
+          <div className='text-center'>Copyright &copy; 2018 The Regulators</div>
+        </Container>
+      </Jumbotron>
     </div>
   </Router>
 );
