@@ -18,7 +18,7 @@ const AppRouter = () => (
   <Router>
     <div>
       {/* nav bar */}
-      <Navbar bg='light' expand='lg'>
+      <Navbar bg='light' expand='lg' sticky='top'>
         <LinkContainer to='/'>
           <Navbar.Brand>The Regulators</Navbar.Brand>
         </LinkContainer>
@@ -61,7 +61,7 @@ const AppRouter = () => (
       <Route path='/news/' component={News} />
 
       {/* footer */}
-      <Jumbotron fluid className='bg-light'>
+      <Jumbotron fluid className='bg-light mb-0'>
         <Container>
           <div className='text-center'>Copyright &copy; 2018 The Regulators.</div>
         </Container>

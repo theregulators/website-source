@@ -1,7 +1,6 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import { LinkContainer } from 'react-router-bootstrap';
-import { Container, Dropdown } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 import Solution from './solution.component';
 import Background from './background.component';

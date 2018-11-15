@@ -1,13 +1,6 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
 import { LinkContainer } from 'react-router-bootstrap';
-import { Container, Dropdown } from 'react-bootstrap';
-
-import Solution from './solution.component';
-import Background from './background.component';
-import Chemistry from './chemistry.component';
-import Technology from './technology.component';
-import Resources from './resources.component';
+import { Dropdown } from 'react-bootstrap';
 
 class AboutDropdownComponent extends React.Component {
   render() {

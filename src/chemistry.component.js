@@ -7,7 +7,7 @@ class ChemistryComponent extends React.Component {
     return (<div>
       <h3>Chemistry</h3>
       <AboutDropdownComponent />
-      <p>Chemistry details will go here.</p>
+      <p>Specific details about the chemicals and experimental procedures will be added here.</p>
     </div>);
   }
 }
