@@ -39,12 +39,12 @@ const teamMembers = [
     'profilePicture': 'https://www.morpht.com/sites/morpht/files/styles/landscape_medium/public/dalibor-matura_1.jpg'
   }
 ];
-const teamMembersHtml = teamMembers.map(member => (<Col key={member.name}>
+const teamMembersHtml = teamMembers.map(member => (<Col key={member.name} className='mb-3'>
       <Card style={{ width: '18rem' }}>
         <Card.Img variant='top' src={member.profilePicture} />
         <Card.Body>
           <h3>{member.name}</h3>
-          <h5>{member.tagline}</h5>
+          <h5 className='text-secondary'>{member.tagline}</h5>
           <p>{member.description}</p>
         </Card.Body>
       </Card>
@@ -52,7 +52,7 @@ const teamMembersHtml = teamMembers.map(member => (<Col key={member.name}>
 
 class TeamComponent extends React.Component {
   render() {
-    return (<Container>
+    return (<Container className='my-5'>
       <h1>Who are we?</h1>
       <p>We are a team of freshmen at the Cooper Union.</p>
       <Row>

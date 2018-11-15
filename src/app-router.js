@@ -14,6 +14,7 @@ import Solution from './solution.component';
 import Background from './background.component';
 import Chemistry from './chemistry.component';
 import Technology from './technology.component';
+import Resources from './resources.component';
 import Team from './team.component';
 import News from './news.component';
 
@@ -43,6 +44,9 @@ const AppRouter = () => (
                 <LinkContainer to='/about/technology'>
                   <NavDropdown.Item>Technology Stack</NavDropdown.Item>
                 </LinkContainer>
+                <LinkContainer to='/about/resources'>
+                  <NavDropdown.Item>Resources</NavDropdown.Item>
+                </LinkContainer>
               </NavDropdown>
             </LinkContainer>
             <LinkContainer to='/team'>
@@ -62,6 +66,7 @@ const AppRouter = () => (
       <Route path='/about/background/' component={Background} />
       <Route path='/about/chemistry/' component={Chemistry} />
       <Route path='/about/technology/' component={Technology} />
+      <Route path='/about/resources/' component={Resources} />
       <Route path='/team/' component={Team} />
       <Route path='/news/' component={News} />
 
