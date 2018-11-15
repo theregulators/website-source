@@ -36,7 +36,7 @@ const teamMembers = [
     'name': 'Amy Leong',
     'tagline': 'Tech. Team',
     'description': 'An ambitious programmer who likes Rubik\'s cubing and bowling!',
-    'profilePicture': 'https://www.morpht.com/sites/morpht/files/styles/landscape_medium/public/dalibor-matura_1.jpg'
+    'profilePicture': '/assets/amy.jpg'
   }
 ];
 const teamMembersHtml = teamMembers.map(member => (<Col key={member.name} className='mb-3'>
