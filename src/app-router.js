@@ -10,11 +10,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import components
 import Index from './index.component';
 import About from './about.component';
-import Solution from './solution.component';
-import Background from './background.component';
-import Chemistry from './chemistry.component';
-import Technology from './technology.component';
-import Resources from './resources.component';
 import Team from './team.component';
 import News from './news.component';
 
@@ -62,11 +57,6 @@ const AppRouter = () => (
       {/* routes */}
       <Route path='/' exact component={Index} />
       <Route path='/about/' component={About} />
-      <Route path='/about/solution/' component={Solution} />
-      <Route path='/about/background/' component={Background} />
-      <Route path='/about/chemistry/' component={Chemistry} />
-      <Route path='/about/technology/' component={Technology} />
-      <Route path='/about/resources/' component={Resources} />
       <Route path='/team/' component={Team} />
       <Route path='/news/' component={News} />
 

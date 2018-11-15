@@ -5,32 +5,32 @@ const teamMembers = [
   {
     'name': 'Peter Baccarella',
     'tagline': 'Chem. Team',
-    'description': 'An ambitious programmer who likes Rubik\'s cubing and bowling!',
-    'profilePicture': 'https://www.morpht.com/sites/morpht/files/styles/landscape_medium/public/dalibor-matura_1.jpg'
+    'description': 'Depressed, repressed, and ready to put down.',
+    'profilePicture': '/assets/peter.jpg'
   },
   {
     'name': 'Catherine Chen',
     'tagline': 'Chem. Team',
-    'description': 'An ambitious programmer who likes Rubik\'s cubing and bowling!',
-    'profilePicture': 'https://www.morpht.com/sites/morpht/files/styles/landscape_medium/public/dalibor-matura_1.jpg'
+    'description': 'Glucose is my city',
+    'profilePicture': '/assets/catherine.jpg'
   },
   {
     'name': 'Vincent Wang',
     'tagline': 'Chem. Team',
     'description': 'An ambitious programmer who likes Rubik\'s cubing and bowling!',
-    'profilePicture': 'https://www.morpht.com/sites/morpht/files/styles/landscape_medium/public/dalibor-matura_1.jpg'
+    'profilePicture': '/assets/vincent.jpg'
   },
   {
     'name': 'Emily Yasharpour',
     'tagline': 'Chem. Team',
     'description': 'An ambitious programmer who likes Rubik\'s cubing and bowling!',
-    'profilePicture': 'https://www.morpht.com/sites/morpht/files/styles/landscape_medium/public/dalibor-matura_1.jpg'
+    'profilePicture': '/assets/emily.jpg'
   },
   {
     'name': 'Jonathan Lam',
     'tagline': 'Tech. Team',
     'description': 'An ambitious programmer who likes Rubik\'s cubing and bowling!',
-    'profilePicture': 'https://www.morpht.com/sites/morpht/files/styles/landscape_medium/public/dalibor-matura_1.jpg'
+    'profilePicture': '/assets/jonathan.jpg'
   },
   {
     'name': 'Amy Leong',
