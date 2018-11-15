@@ -19,6 +19,18 @@ class ResourcesComponent extends React.Component {
           <a href='/downloads/regulators-design_summary_presentation.pdf' download>Design Summary Presentation</a>
         </li>
         <li>
+          <span className='text-secondary small mr-3'>[PPTX, modified 10/30/18]</span>
+          <a href='/downloads/regulators-design_summary_presentation.pptx' download>Design Summary Presentation</a>
+        </li>
+        <li>
+          <span className='text-secondary small mr-3'>[PDF, modified 10/29/18]</span>
+          <a href='/downloads/regulators-joint_midterm_presentation_eid101e.pdf' download>Joint Midterm Presentation EID101E</a>
+        </li>
+        <li>
+          <span className='text-secondary small mr-3'>[PPTX, modified 10/29/18]</span>
+          <a href='/downloads/regulators-joint_midterm_presentation_eid101e.pptx' download>Joint Midterm Presentation EID101E</a>
+        </li>
+        <li>
           <span className='text-secondary small mr-3'>[DOCX, modified 10/10/18]</span>
           <a href='/downloads/regulators-duncker_diagram.docx' download>Duncker Diagram</a>
         </li>

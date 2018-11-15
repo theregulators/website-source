@@ -28,7 +28,7 @@ class IndexComponent extends React.Component {
         <Jumbotron fluid className='jumbotron-impression text-center d-flex flex-column justify-content-center text-light mb-0'
           style={{ background: 'linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/assets/team.jpg)', backgroundSize: 'cover' }}>
           <Container>
-            <h1 className='display-5'>Get the latest updates.</h1>
+            <h1 className='display-5'>Get the latest</h1>
             <h5 className='font-weight-light'><Link to='/news'>See our news.</Link></h5>
           </Container>
         </Jumbotron>
