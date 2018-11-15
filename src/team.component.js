@@ -5,13 +5,13 @@ const teamMembers = [
   {
     'name': 'Peter Baccarella',
     'tagline': 'Chem. Team',
-    'description': 'Depressed, repressed, and ready to put down.',
+    'description': 'Glucose is my city.',
     'profilePicture': '/assets/peter.jpg'
   },
   {
     'name': 'Catherine Chen',
     'tagline': 'Chem. Team',
-    'description': 'Glucose is my city',
+    'description': 'Generic Asian.',
     'profilePicture': '/assets/catherine.jpg'
   },
   {
