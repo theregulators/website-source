@@ -63,7 +63,7 @@ const AppRouter = () => (
       {/* footer */}
       <Jumbotron fluid className='bg-light'>
         <Container>
-          <div className='text-center'>Copyright &copy; 2018 The Regulators</div>
+          <div className='text-center'>Copyright &copy; 2018 The Regulators.</div>
         </Container>
       </Jumbotron>
     </div>

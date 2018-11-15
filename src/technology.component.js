@@ -7,6 +7,7 @@ class TechnologyComponent extends React.Component {
     return (<div>
       <h3>Technology</h3>
       <AboutDropdownComponent />
+      <p>Technology details will go here.</p>
     </div>);
   }
 }

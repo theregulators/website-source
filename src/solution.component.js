@@ -7,6 +7,7 @@ class SolutionComponent extends React.Component {
     return (<div>
       <h3>Solution</h3>
       <AboutDropdownComponent />
+      <p>Solution details will go here.</p>
     </div>);
   }
 }

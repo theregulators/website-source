@@ -7,6 +7,7 @@ class BackgroundComponent extends React.Component {
     return (<div>
       <h3>Background</h3>
       <AboutDropdownComponent />
+      <p>Background details will go here.</p>
     </div>);
   }
 }

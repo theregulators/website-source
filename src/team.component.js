@@ -17,38 +17,38 @@ const teamMembers = [
   {
     'name': 'Vincent Wang',
     'tagline': 'Chem. Team',
-    'description': 'An ambitious programmer who likes Rubik\'s cubing and bowling!',
+    'description': '[ Insert tagline here ]',
     'profilePicture': '/assets/vincent.jpg'
   },
   {
     'name': 'Emily Yasharpour',
     'tagline': 'Chem. Team',
-    'description': 'An ambitious programmer who likes Rubik\'s cubing and bowling!',
+    'description': 'This project is wanting me not to be a ChemE.',
     'profilePicture': '/assets/emily.jpg'
   },
   {
     'name': 'Jonathan Lam',
     'tagline': 'Tech. Team',
-    'description': 'An ambitious programmer who likes Rubik\'s cubing and bowling!',
+    'description': 'Coding and cubing and bowling.',
     'profilePicture': '/assets/jonathan.jpg'
   },
   {
     'name': 'Amy Leong',
     'tagline': 'Tech. Team',
-    'description': 'An ambitious programmer who likes Rubik\'s cubing and bowling!',
+    'description': 'Fake EE.',
     'profilePicture': '/assets/amy.jpg'
   }
 ];
 const teamMembersHtml = teamMembers.map(member => (<Col key={member.name} className='mb-3'>
-      <Card style={{ width: '18rem' }}>
-        <Card.Img variant='top' src={member.profilePicture} />
-        <Card.Body>
-          <h3>{member.name}</h3>
-          <h5 className='text-secondary'>{member.tagline}</h5>
-          <p>{member.description}</p>
-        </Card.Body>
-      </Card>
-    </Col>));
+  <Card style={{ width: '18rem' }}>
+    <Card.Img variant='top' src={member.profilePicture} />
+    <Card.Body>
+      <h3>{member.name}</h3>
+      <h5 className='text-secondary'>{member.tagline}</h5>
+      <p>{member.description}</p>
+    </Card.Body>
+  </Card>
+</Col>));
 
 class TeamComponent extends React.Component {
   render() {

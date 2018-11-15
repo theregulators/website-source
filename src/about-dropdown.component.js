@@ -12,7 +12,7 @@ import Resources from './resources.component';
 class AboutDropdownComponent extends React.Component {
   render() {
     return (<div>
-      <Dropdown.Menu show className='float-none w-auto d-inline-block' style={{ position: 'static' }}>
+      <Dropdown.Menu show className='float-none w-auto d-inline-block mb-3' style={{ position: 'static' }}>
         <Dropdown.Header>About the Colorimetric Test Strip</Dropdown.Header>
         <LinkContainer to='/about/solution'>
           <Dropdown.Item>Solution</Dropdown.Item>
