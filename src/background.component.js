@@ -1,9 +1,12 @@
 import React from 'react';
 
+import AboutDropdownComponent from './about-dropdown.component';
+
 class BackgroundComponent extends React.Component {
   render() {
     return (<div>
-      <h2>Background</h2>
+      <h3>Background</h3>
+      <AboutDropdownComponent />
     </div>);
   }
 }

@@ -53,7 +53,7 @@ const teamMembersHtml = teamMembers.map(member => (<Col key={member.name} classN
 class TeamComponent extends React.Component {
   render() {
     return (<Container className='my-5'>
-      <h1>Who are we?</h1>
+      <h3>Who are we?</h3>
       <p>We are a team of freshmen at the Cooper Union.</p>
       <Row>
         {teamMembersHtml}

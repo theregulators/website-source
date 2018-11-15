@@ -1,11 +1,14 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 
+import AboutDropdownComponent from './about-dropdown.component';
+
 class ResourcesComponent extends React.Component {
   render() {
-    return (<Container>
-      <h2>Resouces and Documents</h2>
-    </Container>);
+    return (<div>
+      <h3>Resources and Documents</h3>
+      <AboutDropdownComponent />
+    </div>);
   }
 }
 
