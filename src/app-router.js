@@ -11,7 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Index from './index.component';
 import About from './about.component';
 import Team from './team.component';
-import News from './news.component';
+import Media from './media.component';
 
 // main template
 const AppRouter = () => (
@@ -47,8 +47,8 @@ const AppRouter = () => (
             <LinkContainer to='/team'>
               <Nav.Link>Team</Nav.Link>
             </LinkContainer>
-            <LinkContainer to='/news'>
-              <Nav.Link>News</Nav.Link>
+            <LinkContainer to='/media'>
+              <Nav.Link>Media</Nav.Link>
             </LinkContainer>
           </Nav>
         </Navbar.Collapse>
@@ -58,7 +58,7 @@ const AppRouter = () => (
       <Route path='/' exact component={Index} />
       <Route path='/about/' component={About} />
       <Route path='/team/' component={Team} />
-      <Route path='/news/' component={News} />
+      <Route path='/media/' component={Media} />
 
       {/* footer */}
       <Jumbotron fluid className='bg-light mb-0'>

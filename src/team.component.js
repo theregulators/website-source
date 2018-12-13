@@ -4,38 +4,38 @@ import { Container, Card, Row, Col } from 'react-bootstrap';
 const teamMembers = [
   {
     'name': 'Peter Baccarella',
-    'tagline': 'Chem. Team',
-    'description': 'Glucose is my city.',
+    'tagline': 'Chemistry Team',
+    'description': '',
     'profilePicture': '/assets/peter.jpg'
   },
   {
     'name': 'Catherine Chen',
-    'tagline': 'Chem. Team',
-    'description': 'Generic Asian.',
+    'tagline': 'Chemistry Team',
+    'description': '',
     'profilePicture': '/assets/catherine.jpg'
   },
   {
     'name': 'Vincent Wang',
-    'tagline': 'Chem. Team',
-    'description': '[ Insert tagline here ]',
+    'tagline': 'Chemistry Team',
+    'description': '',
     'profilePicture': '/assets/vincent.jpg'
   },
   {
     'name': 'Emily Yasharpour',
-    'tagline': 'Chem. Team',
-    'description': 'This project is wanting me not to be a ChemE.',
+    'tagline': 'Chemistry Team',
+    'description': '',
     'profilePicture': '/assets/emily.jpg'
   },
   {
     'name': 'Jonathan Lam',
-    'tagline': 'Tech. Team',
-    'description': 'Coding and cubing and bowling.',
+    'tagline': 'Technology Team',
+    'description': '',
     'profilePicture': '/assets/jonathan.jpg'
   },
   {
     'name': 'Amy Leong',
-    'tagline': 'Tech. Team',
-    'description': 'Fake EE.',
+    'tagline': 'Technology Team',
+    'description': '',
     'profilePicture': '/assets/amy.jpg'
   }
 ];
@@ -54,10 +54,12 @@ class TeamComponent extends React.Component {
   render() {
     return (<Container className='my-5'>
       <h3>Who are we?</h3>
-      <p>We are a team of freshmen at the Cooper Union.</p>
+      <p>In short: We are The Regulators!</p>
+      <p>In long: We are freshmen at The Cooper Union in Task One Team One of Prof. Raja&apos;s EID101(E) section, Cost Effective Diabetes Management. Our goal as a class is to apply the principles of the engineering design process to a real-world field of study.</p>
       <Row>
         {teamMembersHtml}
       </Row>
+      <p>If you&apos;d like to reach out to the team or inquire about the website, you may contact Jonathan Lam (webmaster) at <a href='mailto:jonathanlamdev@gmail.com'>jonathanlamdev@gmail.com</a>.</p>
     </Container>);
   }
 }

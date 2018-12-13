@@ -4,3 +4,25 @@
 #strip-img {
   height: 15rem;
 }
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: calc(100% - 5rem) !important;
+  }
+}
+.gallery-image {
+  width: 100%;
+  cursor: pointer;
+  margin: 15px 0;
+  overflow: hidden;
+}
+.gallery-image-child {
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  padding-bottom: 67%;
+  background-color: blue;
+  transition: transform 0.2s;
+}
+.gallery-image-child:hover {
+  transform: scale(1.1);
+}
