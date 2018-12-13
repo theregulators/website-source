@@ -5,35 +5,35 @@ import { Container, Row, Col, Modal } from 'react-bootstrap';
 const images = [
   {
     url: '/assets/app-screenshot.png',
-    caption: 'labelled screenshot of app'
+    caption: 'Labelled screenshot of app'
   },
   {
     url: '/assets/jon-coding.jpg',
-    caption: 'jon happily coding away lol'
+    caption: 'Jon happily coding away'
   },
   {
     url: '/assets/peter-scale.jpg',
-    caption: 'peter massing in the lab'
+    caption: 'Peter in the lab'
   },
   {
     url: '/assets/mesh-filter.jpg',
-    caption: 'mesh filter'
+    caption: 'Mesh filter for red blood cells'
   },
   {
     url: '/assets/tmb-colors.jpg',
-    caption: 'tmb colors'
+    caption: 'Colors of different TMB concentrations'
   },
   {
     url: '/assets/glucose-solutions.jpg',
-    caption: 'prepared glucose solutions'
+    caption: 'Prepared glucose solutions'
   },
   {
     url: '/assets/calibration-curve.jpg',
-    caption: 'regressions for the app'
+    caption: 'Color-concentration regressions'
   },
   {
     url: '/assets/team-askew.jpg',
-    caption: 'everyone looking askew'
+    caption: 'Everyone looking askew'
   },
 ];
 let imagesHtml;
@@ -46,7 +46,7 @@ class MediaComponent extends React.Component {
     };
     imagesHtml = images.map((image, ind) => (<Col xs={12} md={4} key={image.url}>
       <div
-        className='gallery-image'
+        className='gallery-image rounded shadow'
         title={image.caption}>
         <div
           data-ind={ind}
@@ -75,7 +75,7 @@ class MediaComponent extends React.Component {
         <Modal.Header closeButton>
           <Modal.Title>{this.state.selectedImage ? this.state.selectedImage.caption : ''}</Modal.Title>
         </Modal.Header>
-        <img src={this.state.selectedImage ? this.state.selectedImage.url : ''} className='mw-100 rounded-bottom' alt={this.state.selectedImage ? this.state.selectedImage.caption : ''} />
+        <img src={this.state.selectedImage ? this.state.selectedImage.url : ''} className='mw-100 w-100' alt={this.state.selectedImage ? this.state.selectedImage.caption : ''} />
       </Modal>
 
       <h3>Gallery</h3>
