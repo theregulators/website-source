@@ -27,6 +27,7 @@
 }
 #header-jumbotron {
   background-color: rgba(0, 0, 0, 0.75) !important;
+  overflow: hidden;
 }
 #header-video {
   min-width: 100%;

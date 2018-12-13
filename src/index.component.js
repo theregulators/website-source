@@ -13,7 +13,7 @@ class IndexComponent extends React.Component {
           </video>
           <Container>
             <img className='mb-4' id='strip-img' src='./assets/strip.svg' alt='The Regulator is a low-cost colorimetric test strip for blood glucose testing.' />
-            <h1 className='display-5'>Low-cost blood sugar regulation</h1>
+            <h1 className='display-5'>Low-cost blood sugar monitoring</h1>
             <h5 className='font-weight-light'><Link to='/about/solution'>How do we do it?</Link></h5>
           </Container>
         </Jumbotron>
@@ -31,7 +31,7 @@ class IndexComponent extends React.Component {
         <Jumbotron fluid className='jumbotron-impression text-center d-flex flex-column justify-content-center text-light mb-0'
           style={{ background: 'linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/assets/team.jpg)', backgroundSize: 'cover' }}>
           <Container>
-            <h1 className='display-5'>Get the latest</h1>
+            <h1 className='display-5'>See what we do</h1>
             <h5 className='font-weight-light'><Link to='/media'>See the gallery.</Link></h5>
           </Container>
         </Jumbotron>
