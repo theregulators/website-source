@@ -1,5 +1,5 @@
 .jumbotron-impression {
-  min-height: 40em;
+  height: 40em;
 }
 #strip-img {
   height: 15rem;
@@ -27,6 +27,9 @@
 }
 #header-jumbotron {
   background-color: rgba(0, 0, 0, 0.75) !important;
+  overflow: hidden;
+}
+#footer {
   overflow: hidden;
 }
 #header-video {
