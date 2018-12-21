@@ -18,6 +18,7 @@ class IndexComponent extends React.Component {
               <Col>
                 <video muted loop controls id='main-video' className='bg-light'>
                   <source src='/assets/intro-video.webm' type='video/webm' />
+                  <source src='/assets/intro-video.mp4' type='video/mp4' />
                 </video>
               </Col>
             </Row>
