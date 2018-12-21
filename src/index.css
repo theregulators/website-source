@@ -26,13 +26,14 @@
   transform: scale(1.1);
 }
 #header-jumbotron {
+  height: auto;
+}
+#lower-jumbotron {
+  position: relative;
   background-color: rgba(0, 0, 0, 0.75) !important;
   overflow: hidden;
 }
-#footer {
-  overflow: hidden;
-}
-#header-video {
+#lower-video {
   min-width: 100%;
   min-height: 100%;
   margin: 0 auto;
@@ -41,4 +42,7 @@
 }
 #nav-bar, #footer {
   background-color: white;
+}
+#main-video {
+  max-width: 100%;
 }

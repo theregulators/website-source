@@ -7,15 +7,15 @@ class IndexComponent extends React.Component {
   render() {
     return (<Row className='mx-0'>
       <Col xs='12' className='p-0'>
-        <Jumbotron fluid className='jumbotron-impression text-center d-flex flex-column justify-content-center mb-0 bg-dark text-light' id=''>
+        <Jumbotron fluid className='jumbotron-impression text-center d-flex flex-column justify-content-center mb-0 bg-dark text-light' id='header-jumbotron'>
           <Container>
             <Row>
-              <Col>
+              <Col lg='6' xs='12' className='mb-5'>
                 <img className='mb-4' id='strip-img' src='./assets/strip.svg' alt='The Regulator is a low-cost colorimetric test strip for blood glucose testing.' />
                 <h1 className='display-5'>Low-cost blood sugar monitoring</h1>
                 <h5 className='font-weight-light'><Link to='/about/solution'>How do we do it?</Link></h5>
               </Col>
-              <Col>
+              <Col lg='6' xs='12'>
                 <video muted loop controls id='main-video' className='bg-light'>
                   <source src='/assets/intro-video.webm' type='video/webm' />
                   <source src='/assets/intro-video.mp4' type='video/mp4' />
@@ -44,8 +44,8 @@ class IndexComponent extends React.Component {
         </Jumbotron>
       </Col>
       <Col xs='12' className='p-0'>
-        <Jumbotron fluid className='jumbotron-impression text-center d-flex flex-column justify-content-center text-light mb-0' id='header-jumbotron'>
-          <video autoPlay muted loop id='header-video'>
+        <Jumbotron fluid className='jumbotron-impression text-center d-flex flex-column justify-content-center text-light mb-0' id='lower-jumbotron'>
+          <video autoPlay muted loop id='lower-video'>
             <source src='/assets/header.webm' type='video/webm' />
           </video>
           <Container>
